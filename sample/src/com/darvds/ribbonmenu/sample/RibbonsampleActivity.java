@@ -13,7 +13,6 @@ public class RibbonsampleActivity extends Activity implements iRibbonMenuCallbac
 	  
 	private RibbonMenuView rbmView;
 		
-		
 	    @Override
 	    public void onCreate(Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
@@ -25,8 +24,6 @@ public class RibbonsampleActivity extends Activity implements iRibbonMenuCallbac
 	        rbmView.setMenuItems(R.menu.ribbon_menu);
 	        
 	         getActionBar().setDisplayHomeAsUpEnabled(true);
-	         
-	        
 	    }
 	    
 	    
